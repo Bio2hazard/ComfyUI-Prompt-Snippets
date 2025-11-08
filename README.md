@@ -2,6 +2,8 @@
 
 This extension for ComfyUI adds a autocompletion feature that helps you write prompts faster and more efficiently. It provides suggestions from premade and custom data files as you type, allowing you to quickly insert and expand predefined keywords.
 
+![Example animation showing ComfyUI Prompt Snippets usage](/examples/example.avif)
+
 ## Installation
 
 ### Recommended
