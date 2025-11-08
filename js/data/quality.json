@@ -1,0 +1,11 @@
+{
+  "Pos": "masterpiece, best quality, detailed",
+  "PosExpanded": "masterpiece, best quality, amazing quality, very aesthetic, ultra-detailed, high resolution, highres, absurdres, 4k, 8k, newest",
+  "Neg": "low quality, worst quality, bad quality, lowres, deformed, mutated, disfigured, (bad anatomy), conjoined, bad ai-generated, cropped, jpeg artifacts, censored, text, signature, watermark, username, patreon logo, artist name",
+  "PonyPos": "score_9, score_8_up, score_7_up",
+  "PonyNeg": "score_4, score_5, score_6",
+  "EyesPos": "detailed eyes, perfect eyes, realistic eyes",
+  "EyesNeg": "cross-eye, fused eyes, poorly drawn face, cloned face, bad eyes, imperfect eyes, skewed eyes",
+  "HandsNeg": "bad hands, missing fingers, extra digit, fewer digits, interlocked fingers, poorly drawn hand",
+  "LimbsNeg": " distorted, missing legs, extra legs, extra limbs"
+}
