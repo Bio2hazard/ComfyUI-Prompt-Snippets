@@ -1,0 +1,36 @@
+[project]
+name = "prompt-snippets"
+description = "This extension for ComfyUI adds a autocompletion feature that helps you write prompts faster and more efficiently. It provides suggestions from premade and custom data files as you type, allowing you to quickly insert and expand predefined keywords."
+version = "1.0.0"
+license = {file = "LICENSE"} 
+# classifiers = [
+#     # For OS-independent nodes (works on all operating systems)
+#     "Operating System :: OS Independent",
+#
+#     # OR for OS-specific nodes, specify the supported systems:
+#     "Operating System :: Microsoft :: Windows",  # Windows specific
+#     "Operating System :: POSIX :: Linux",  # Linux specific
+#     "Operating System :: MacOS",  # macOS specific
+#
+#     # GPU Accelerator support. Pick the ones that are supported by your extension.
+#     "Environment :: GPU :: NVIDIA CUDA",    # NVIDIA CUDA support
+#     "Environment :: GPU :: AMD ROCm",       # AMD ROCm support
+#     "Environment :: GPU :: Intel Arc",      # Intel Arc support
+#     "Environment :: NPU :: Huawei Ascend",  # Huawei Ascend support
+#     "Environment :: GPU :: Apple Metal",    # Apple Metal support
+# ]
+
+
+[project.urls]
+Repository = "https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets/wiki"
+"Bug Tracker" = "https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets/issues"
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Prompt-Snippets"
+Icon = ""
+includes = [] 
+# "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
+
