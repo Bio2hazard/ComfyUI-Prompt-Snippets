@@ -10,7 +10,7 @@ Install via [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager).
 ### Manual
 
 1. Open your terminal and navigate to your ComfyUI/custom_nodes folder
-2. Run `git clone https://github.com/bio2hazard/comfyui-prompt-snippets.git`
+2. Run `git clone https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets.git`
 
 ## Purpose
 
