@@ -89,3 +89,4 @@ Install via [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager).
 | time_of_day     | 30    | [DesertPixelAi/ComfyUI-Desert-Pixel-Nodes](https://github.com/DesertPixelAi/ComfyUI-Desert-Pixel-Nodes)       | MIT      |
 | trope           | 216   | Created by Gemini per my request                                                                              | -        |
 
+Autocomplete functionality uses some code from [pythongosssss/ComfyUI-Custom-Scripts](https://github.com/pythongosssss/ComfyUI-Custom-Scripts) under MIT, and it was also a big inspiration for this project. Thank you!

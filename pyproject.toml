@@ -1,0 +1,21 @@
+[project]
+name = "ComfyUI-Prompt-Snippets"
+description = "ComfyUI Prompt Snippets provides autocompletion, randomization and snippet insertion to help you write prompts faster and more efficiently. No custom node needed!"
+version = "1.0.0"
+license = {file = "LICENSE"} 
+classifiers = [
+    # For OS-independent nodes (works on all operating systems)
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+Repository = "https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets"
+#  Used by Comfy Registry https://registry.comfy.org
+Documentation = "https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets/wiki"
+"Bug Tracker" = "https://github.com/Bio2hazard/ComfyUI-Prompt-Snippets/issues"
+
+[tool.comfy]
+PublisherId = "bio2hazard"
+DisplayName = "ComfyUI-Prompt-Snippets"
+Icon = ""
