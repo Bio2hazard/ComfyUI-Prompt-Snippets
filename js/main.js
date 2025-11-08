@@ -10,7 +10,7 @@ app.registerExtension({
         const link = document.createElement('link');
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'extensions/comfyui-prompt-snippets/autocomplete.css';
+        link.href = 'extensions/ComfyUI-Prompt-Snippets/autocomplete.css';
         document.head.appendChild(link);
 
         const words = await getWords();

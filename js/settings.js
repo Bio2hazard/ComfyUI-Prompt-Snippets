@@ -12,7 +12,7 @@ app.registerExtension({
         }
 
         const setting_debug = app.ui.settings.addSetting({
-            id: "cpe.debugOutput",
+            id: "promptsnippets.debugOutput",
             name: "CPS: Enable debug logging to console",
             defaultValue: false,
             type: "boolean",
@@ -22,7 +22,7 @@ app.registerExtension({
         });
 
         const setting_trigger = app.ui.settings.addSetting({
-            id: "cpe.triggerCharacter",
+            id: "promptsnippets.triggerCharacter",
             name: "CPS: Trigger character for autocomplete",
             defaultValue: "@",
             type: "text",
@@ -32,7 +32,7 @@ app.registerExtension({
         });
 
         const disabledCategoriesSetting = app.ui.settings.addSetting({
-            id: "cpe.disabledCategories",
+            id: "promptsnippets.disabledCategories",
             name: "CPS: Disabled Categories",
             defaultValue: [],
             type: "hidden",
@@ -45,7 +45,7 @@ app.registerExtension({
 
         for (const category of categories) {
             app.ui.settings.addSetting({
-                id: `cpe.category.${category}`,
+                id: `promptsnippets.category.${category}`,
                 name: `Category Toggle: ${category}`,
                 defaultValue: !settings.disabledCategories.includes(category),
                 type: "boolean",

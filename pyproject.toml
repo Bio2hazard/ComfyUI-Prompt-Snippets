@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-Prompt-Snippets"
 description = "ComfyUI Prompt Snippets provides autocompletion, randomization and snippet insertion to help you write prompts faster and more efficiently. No custom node needed!"
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"} 
 classifiers = [
     # For OS-independent nodes (works on all operating systems)

@@ -81,7 +81,7 @@ async def get_words(request):
     if base_user_dir:
         try:
             os.makedirs(base_user_dir, exist_ok=True)
-            user_data_dir = os.path.join(base_user_dir, "comfyui-prompt-snippets")
+            user_data_dir = os.path.join(base_user_dir, "ComfyUI-Prompt-Snippets")
             
             is_new_dir = not os.path.exists(user_data_dir)
             
